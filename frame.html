@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .photo-frame {
+            width: 300px;
+            height: 225px;
+            border: 5px solid yellow;
+            border-radius: 10px;
+            position: relative;
+        }
+
+        .photo>img {
+            width: 100%;
+        }
+
+        .alt {
+            position: absolute;
+            top: 60px;
+            display: none;
+        }
+
+        .photo-frame:hover .alt {
+            background-color: goldenrod;
+            display: block;
+            width: 300px;
+            height: 225px;
+            top: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>Photo album</h1>
+        <section class="tiger">
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="" class="tig">
+                </div>
+                <div class="alt">
+                    <h3>Royel Bengal Tiger</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique aspernatur id voluptatibus,
+                        veniam omnis reprehenderit!</p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+.box{
+    width: 400px;
+    height: 200px;
+    border: 2px solid;
+    overflow:auto;
+}
+.box2{
+    margin-top: 5px;
+    width: 400px;
+    height: 200px;
+    border: 2px solid;
+    overflow-x: scroll;
+    
+}
+.outer{
+    background-color: blueviolet;
+    border: 1px solid;
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+}
+.inner{
+    background-color: gray;
+    border: 1px solid;
+    width: 200px;
+    height: 200px;
+    /* transform: scale(.5); */
+    transform:rotate(50deg) scale(.5);
+}
+.item{
+    background-color: greenyellow;
+    width: 200px;
+    height: 100px;
+    transition: width,background-color font-size 1s ease-in 2s;
+}
+.item:hover{
+    /* background-color: grey;
+    font-size: 50px; */
+    width: 500px;
+    background-color: blueviolet;
+}
